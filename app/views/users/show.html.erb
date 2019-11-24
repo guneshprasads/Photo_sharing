@@ -1,0 +1,35 @@
+<h1 style="text-align: center">Bang the table</h1>
+<% if current_user %>
+  Logged in as <%= current_user.email %>.
+<% else %>
+  <%= link_to “Sign Up”, signup_path %> or 
+  <%= link_to “Log In”, login_path %>
+<% end %><p id=”notice”><%= notice %></p><h1>Example</h1>
+<p>   </p>
+
+
+<div class="wrapper">
+
+    <form class="upload" method="POST" action="/upload/uploadFile" enctype="multipart/form-data">
+        <%= token_tag %>
+  	<%= file_field_tag 'picture' %>
+        <div>
+            <input type="hidden" value="<%= current_user.email %>" name="userId">
+            <input type="submit" value="Upload">
+        </div>
+    </form>
+    <ul>
+
+ 
+
+<% Dir.entries("public/data/k").reverse[2..-1].each do |file_name| %>
+  <li><%= link_to file_name, "/#{URI.escape(file_name)}" %>&nbsp; <button >delete</button></li>
+<% end %>
+</ul>
+
+
+ <%= link_to "delete", method: :file_cleanup, action: :destroy %>
+<ul>
+</div>
+ 
+
