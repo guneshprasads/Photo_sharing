@@ -45,4 +45,4 @@ This page shows the option for the user to delete the uploaded photo.
 
 
 ![up7](https://user-images.githubusercontent.com/13889409/69583558-33e6d900-1001-11ea-99cc-98e1018ea165.png)
-This page showa the user to logout from the photo feed.
+This page shows the user to logout from the photo feed.
