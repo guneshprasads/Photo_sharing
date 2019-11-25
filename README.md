@@ -18,3 +18,4 @@ $ rails server
 and launch the  photo_sharing app on http://localhost:3000.
 
 Here are some screenshots from the application:
+
