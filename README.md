@@ -19,3 +19,4 @@ and launch the  photo_sharing app on http://localhost:3000.
 
 Here are some screenshots from the application:
 
+![Screenshot from 2019-11-26 03-24-30](https://user-images.githubusercontent.com/13889409/69582522-ccc82500-0ffe-11ea-918c-e10f1d1f835d.png)
