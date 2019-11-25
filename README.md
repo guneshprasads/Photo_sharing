@@ -1,2 +1,20 @@
 # photo_sharing
 
+This repository contains the full codebase for the Real time photo sharing web applicatin.
+
+The final product is in photo sharing app, with a full SQLite backend and a semi-responsive front-end utilizing the Bootstrap theme and Jquery plugins.
+
+The sample app features:
+
+Users page to sign up and login
+User specific feed to upload picture 
+User can delete the picture 
+
+
+To run the application, you need a full rails environment, and once that is set up you can simply run
+
+$ rails server
+
+and launch the  photo_sharing app on http://localhost:3000.
+
+Here are some screenshots from the application:
