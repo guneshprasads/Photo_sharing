@@ -20,8 +20,7 @@ class UploadController < ApplicationController
    
    def file_cleanup
       
-      File.delete(Rails.root + 'public/data'+ userid+'/'+#{current_user.image.url})
+      File.delete(Rails.root + 'public/data'+ userid+'/'+"#{current_user.image.url}")
       redirect_to :action => :edit
     end
    end
-end
